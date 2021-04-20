@@ -17,22 +17,31 @@ namespace CiclosWhileFor
             //Parte 3: Aumento o decremento
 
             int tabla;
-            int i = 1; 
-            
-            // parte 1
+
+
+
+            // int i = 1; parte 1
             Console.WriteLine(" Ingrese un numero de la tabla que quiere calcular");
             tabla = int.Parse(Console.ReadLine());
+                //Inicio de Ciclo While
+                        //parte 2
+                        // while (i<= 10)
+                        //{
+                        //   Console.WriteLine(" " + tabla * i);
+                        //parte 3
+                        //  i++; 
+                        //}
 
-            //parte 2
-            while (i<= 10)
+                        //Console.ReadKey();
+                //Fin de Ciclo While
+
+            //Inicio de ciclo For
+            for (int i=1; i <= 10; i++)
             {
                 Console.WriteLine(" " + tabla * i);
-                //parte 3
-                i++; 
             }
-
             Console.ReadKey();
-            
+
         }
     }
 }
